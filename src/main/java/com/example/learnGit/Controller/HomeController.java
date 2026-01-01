@@ -17,4 +17,19 @@ public class HomeController {
 		
 	}
 	
+	public ProductDetailsPOJO getDetails() {
+		
+		ProductDetailsPOJO productDetailsPOJO = new ProductDetailsPOJO();
+		
+		productDetailsPOJO.setProdId("0001");
+		productDetailsPOJO.setProdName("Dove");
+		productDetailsPOJO.setProdCatagery("Soap");
+		productDetailsPOJO.setProdDescription("for Smooth Skin");
+		productDetailsPOJO.setOrderbyNo(1);
+		
+		return productDetailsPOJO;
+		
+	}
+	
+	
 }

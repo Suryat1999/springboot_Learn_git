@@ -16,8 +16,8 @@ public class OrderServiceImpl implements OrderService {
 		productDetailsPOJO.setProdCatagery("Soap");
 		productDetailsPOJO.setProdDescription("for Smooth Skin");
 
-//cherry pick 2 		
-		productDetailsPOJO.setOrderbyNo(2);
+//cherry pick 3		
+		productDetailsPOJO.setOrderbyNo(0);
 		
 		return productDetailsPOJO;
 	}

@@ -44,7 +44,7 @@ public class HomeController {
 		return productDetailsPOJO;
 		
 	}
-	
+
 	
 	//notification Service parallel added to git
 	

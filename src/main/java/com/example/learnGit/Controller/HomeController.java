@@ -40,9 +40,9 @@ public class HomeController {
  	public ProductDetailsPOJO getOrderDetailsbyId(String id) {
 		
 		ProductDetailsPOJO productDetailsPOJO = orderService.getOrderDetailsbyId(id);
-
-		//adding changes for cherry pick 4
-		productDetailsPOJO.setOrderbyNo(4);
+		
+		//adding changes for cherry pick 		
+		
 		
 		return productDetailsPOJO;
 		

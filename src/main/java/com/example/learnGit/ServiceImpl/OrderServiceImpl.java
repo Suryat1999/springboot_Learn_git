@@ -12,7 +12,7 @@ public class OrderServiceImpl implements OrderService {
 		ProductDetailsPOJO productDetailsPOJO = new ProductDetailsPOJO();
 		
 		productDetailsPOJO.setProdId(prodDtl);
-		productDetailsPOJO.setProdName("Dove");
+		productDetailsPOJO.setProdName("Dove 3 in 1");
 		productDetailsPOJO.setProdCatagery("Soap");
 		productDetailsPOJO.setProdDescription("for Smooth Skin");
 		productDetailsPOJO.setOrderbyNo(1);
